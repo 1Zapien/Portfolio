@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title> Loops </title>
+	</head>
+	<body>
+		<center>
+			<script type="text/javascript">
+				var numLoop= 15;
+				var numPrinted = 0;
+				
+				while( numPrinted < numLoop)
+				{
+					numPrinted++;
+					var text= "While loop: " + numPrinted + "<br/>";
+					if(numPrinted % 2 == 0)
+					{
+						document.write(text.fontcolor("red"));
+					}
+					else if ( numPrinted % 5 == 0) 
+					{
+						document.write(text.fontcolor("green"));
+					}
+					else 
+					{
+						document.write(text.fontcolor("blue"));
+					}
+				}
+				for ( numPrinted = 1 ; numPrinted <= numLoop; numPrinted++)
+				{
+					var text = "For loop: " + numPrinted + "</br>";
+					if(numPrinted % 2 == 0)
+					{
+						document.write(text.fontcolor("red"));
+					}
+					else if ( numPrinted % 5 == 0) 
+					{
+						document.write(text.fontcolor("green"));
+					}
+					else 
+					{
+						document.write(text.fontcolor("blue"));
+					}
+				}
+			</script>
+		</center>
+	</body>
+</html>

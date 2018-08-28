@@ -1,0 +1,128 @@
+<html>
+	<head>
+		<title> Decimal Converter </title>
+		<style type="text/css">
+			body{
+				background-color: #999999;
+			}
+			table{
+				background-color: #12c984;
+			}
+			hr{
+				width: 50%;
+				height: 4px;
+			}
+			th{
+				width:100px;
+				height: 50px;
+			}
+			td{
+				width: 100px;
+				height: 50px;
+				text-align: center;
+			}
+			button{
+				width:inherit;
+				height:inherit;
+			}
+		</style>
+		<script type="text/javascript">
+			var userInput;
+			
+			function get_Input()
+			{
+				userInput= prompt("Please enter a decimal value to convert.");
+				document.getElementById("decimalId").innerHTML = userInput;
+			}
+			function convert()
+			{
+				convertToBinary();
+				convertToHex();
+			}
+			function convertToBinary()
+			{
+				var input = userInput;
+				var binary = "";
+				
+				while(input > 0)
+				{
+					var remainder = input%2;
+					binary= remainder + binary;
+					input = Math.floor(input/2);
+				}
+				
+				document.getElementById("binaryId").innerHTML = binary;
+			}
+			function convertToHex()
+			{
+				var input = userInput;
+				var hex = "";
+				while( input > 0)
+				{
+					var remainder = input%16;
+					if( remainder == 10)
+					{
+						remainder = "A";
+					}
+					else if( remainder == 11)
+					{
+						remainder = "B";
+					}
+					else if( remainder == 12)
+					{
+						remainder = "C";
+					}
+					else if( remainder == 13)
+					{
+						remainder = "D";
+					}
+					else if( remainder == 14)
+					{
+						remainder = "E";
+					}
+					else if( remainder == 15)
+					{
+						remainder = "F";
+					}
+					hex = remainder + hex;
+					input = Math.floor(input/16);
+				}
+				document.getElementById("hexId").innerHTML = hex;
+			}
+		</script>	
+	</head>
+	<body>
+		<center>
+			<h1> Decimal to Binary and 
+				  Hexadecimal Converter </h1>
+			<hr />
+			<h2> Convert a Decimal value to binary
+				  and hexadecimal!</h2>
+			<table border= "2">
+				<tr>
+					<th>
+						<button onclick="get_Input()"> New Value </button> 
+					</th>
+					<th>Decimal </th>
+					<th> Binary </th>
+					<th> Hexadecimal </th>
+				</tr>
+				<tr>
+					<td>
+						<button onclick="convert()"> Convert Value </button>
+					</td>
+					<td>
+						<p id="decimalId"></p>
+					</td>
+					<td>
+						<p id="binaryId"></p>
+					</td>
+					<td>
+						<p id="hexId"></p>
+					</td>
+				</tr>
+			</table>
+		</center>
+	</body>
+
+</html>

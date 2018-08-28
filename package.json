@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Juan Zapien's portfolio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Zapien/Portfolio.git"
+  },
+  "author": "Juan Zapien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1Zapien/Portfolio/issues"
+  },
+  "homepage": "https://github.com/1Zapien/Portfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
