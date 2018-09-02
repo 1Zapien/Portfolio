@@ -14,13 +14,13 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
+var home = require("./routes/home");
+var assess = require("./routes/about");
 
-app.get('/', function (req, res) {
-    res.render('home');
-});
-app.get('/about', function (req, res) {
-    res.render('about');
-});
+
+
+app.get('/', home.view);
+app.get('/about', about.view);
 
 app.set("port", process.env.PORT || 3000);
 
