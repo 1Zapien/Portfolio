@@ -21,7 +21,7 @@ app.set("port", process.env.PORT || 3000);
 
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, "public")));
-app.engine('handlebars', exphbs());
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
@@ -31,7 +31,8 @@ var about = require("./routes/about");
 /*
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
-}*/
+}
+*/
 
 
 
