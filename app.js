@@ -15,7 +15,7 @@ app.set('view engine', 'handlebars');
 
 
 var home = require("./routes/home");
-var assess = require("./routes/about");
+var about = require("./routes/about");
 
 
 
