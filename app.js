@@ -25,9 +25,6 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
-var home = require("./routes/home");
-var about = require("./routes/about");
-
 /*
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
