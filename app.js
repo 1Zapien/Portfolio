@@ -25,24 +25,11 @@ app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
 
 
-/*
-if ('development' == app.get('env')) {
-  app.use(express.errorHandler());
-}
-*/
-
-
 
 app.get('/', home.view);
 app.get('/about', about.view);
 
-app.set("port", process.env.PORT || 3000);
 
-
-/*
-app.listen(process.env.PORT || 3000, function() {
-  console.log("Express server listening on port " + app.get("port"));
-});*/
 
 
 http.createServer(app).listen(app.get('port'), function(){

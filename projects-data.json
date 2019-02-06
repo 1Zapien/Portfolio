@@ -1,1 +1,52 @@
-[
+{
+    "projects":[
+        {
+        "name": "LWCMP",
+        "title": "LWCMP",
+        "url": "LWCMP",
+        "description": "",
+        "info": [
+            {
+                "title": "Role",
+                "content": "UX Researcher, Web development"
+            },
+            {
+                "title": "Design Tools",
+                "content": "Figma"
+            },
+            {
+                "title": "Development Tools",
+                "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
+            },
+            {
+                "title": "Date",
+                "content": "April 2018 - June 2018"
+            }
+        ]
+        },
+        {
+            "name": "NueroViz",
+            "title": "NueroViz",
+            "url": "NueroViz",
+            "description": "",
+            "info": [
+                {
+                    "title": "Role",
+                    "content": "UX/UI Designer, Back-End development"
+                },
+                {
+                    "title": "Design Tools",
+                    "content": "Figma"
+                },
+                {
+                    "title": "Development Tools",
+                    "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
+                },
+                {
+                    "title": "Date",
+                    "content": "April 2018 - June 2018"
+                }
+            ]
+            }
+    ]
+}
