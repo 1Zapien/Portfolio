@@ -1,14 +1,18 @@
 body{
-	background-color: #fff;
+  background-color: #fff;
+  width: 100;
 }
 
 * {box-sizing: border-box;}
 
 .navvar{
-	margin-right: 2%; 
-	margin-top: 3%; 
+  margin-left: 5%; 
+	margin-right: 5%; 
+	margin-top: 2%; 
 	margin-bottom: -2%; 
-	z-index: 1;
+  z-index: 1;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .container-fluid{
@@ -20,15 +24,11 @@ body{
 	text-align: center;
 }
 
-
-
-.col-md-6{
-	padding-right: 4px !important; 
-	padding-left: 4px !important;
-	padding-top: 4px !important;
-	padding-bottom: 4px !important;
+.home-intro{
+  font-size: 1.75rem;
+  font-weight:400;
+  color: #6c757d;
 }
-
 
 .container2 {
   position: relative;
@@ -54,4 +54,10 @@ body{
 
 .container2:hover .overlay {
   opacity: 1;
+}
+
+div.col-md-6{
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 75%;
 }

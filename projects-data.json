@@ -3,8 +3,9 @@
         {
         "name": "LWCMP",
         "title": "LWCMP",
-        "url": "LWCMP",
+        "img": "img/project3.jpg",
         "description": "",
+        "url":"https://lwcmp.herokuapp.com/",
         "info": [
             {
                 "title": "Role",
@@ -27,8 +28,9 @@
         {
             "name": "NueroViz",
             "title": "NueroViz",
-            "url": "NueroViz",
+            "url": "/",
             "description": "",
+            "img": "img/project2.jpg",
             "info": [
                 {
                     "title": "Role",
