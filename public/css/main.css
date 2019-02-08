@@ -13,6 +13,12 @@ body{
   z-index: 1;
   font-size: 1.3rem;
   font-weight: 600;
+  text-align: right;
+}
+
+a.navbar-brand{
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 
@@ -43,27 +49,26 @@ div.row{
 
 
 .overlay{
+  height: 100%;
   position: absolute; 
   bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.8); /* Black see-through */
-  color: #f1f1f1; 
+  background: rgba(0,0,0, 0.8); /* Black see-through */
   transition: .5s ease;
   opacity:0;
-  color: #dedede;
-  font-size: 15px;
+  color: #000;
+  font-size: 1.75rem;
+  font-weight: 600;
   font-family: sans-serif;
   width: 100%;
-}
-
-.overlay.p{
   text-align: center;
+  padding: 10%;
+  background:#c3d7f3;
 }
 
 
 
 .container2:hover .overlay {
-  opacity: 1;
+  opacity: .90;
 }
 
 div.col-md-6{
