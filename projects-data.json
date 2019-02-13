@@ -4,7 +4,7 @@
                     "name": "Diabeatit",
                     "title": "Diabeatit",
                     "url": "dieabeatit",
-                    "description": "Andriod App<br><br> Proactive Interference on Object Binding",
+                    "description": "Diabeatit <br> Android app that teaches kids about healthy eating.",
                     "img": "img/diabeatit.jpg",
                     "color": "#89a398",
                     "secondimg": "img/diabeatitplan.jpg",
@@ -19,26 +19,22 @@
                         },
                         {
                             "title": "Development Tools",
-                            "content": "HTML, CSS ,Node.js (Express + Handlebars)"
+                            "content": "Unity , #C"
                         },
                         {
                             "title": "Date",
-                            "content": "April 2018 - June 2018"
+                            "content": "September 2018 - December 2018"
                         }
                     ]
                     },{
                         "name": "LWCMP",
                         "title": "LWCMP",
                         "img": "img/lwcm.jpg",
-                        "description": "Worked on a team of nine designers and developers in creating a responsive web data collection application. Worked on user testing, front-end, and back-end development.",
+                        "description": "LWCMPT<br>Data collection and visualtion web app.",
                         "url":"lwcmp",
                         "color": "#c3d7f3",
                         "secondimg": "img/lwcmplan.jpg",
                         "info": [
-                            {
-                                "title": "Role",
-                                "content": "Software developer"
-                            },
                             {
                                 "title": "Role",
                                 "content": "UX Researcher, Web development"
@@ -49,7 +45,7 @@
                             },
                             {
                                 "title": "Development Tools",
-                                "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
+                                "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars + Passport.js)"
                             },
                             {
                                 "title": "Date",
@@ -60,15 +56,11 @@
                             "name": "NueroViz",
                             "title": "NueroViz",
                             "url": "nuero",
-                            "description": "NueroViz<br><br> NueroViz .",
+                            "description": "NueroViz <br> Web app prototype that tracks students’ study habits and dipsplays it to user.",
                             "img": "img/nuero.jpg",
                             "color": "#89a398",
                             "secondimg": "img/nueroplan.jpg",
                             "info": [
-                                {
-                                    "title": "Role",
-                                    "content": "Software developer"
-                                },
                                 {
                                     "title": "Role",
                                     "content": "UX/UI Designer, Back-End development"
@@ -90,15 +82,11 @@
                                 "name": "Research",
                                 "title": "Research",
                                 "url": "memory",
-                                "description": "Memory Research<br><br> Proactive Interference on Object Binding",
+                                "description": "Undergraduate Researcher<br> Vision and Memory Lab",
                                 "img": "img/research.png",
                                 "color": "#89a398",
                                 "secondimg": "img/researchplan.jpg",
                                 "info": [
-                                    {
-                                        "title": "Role",
-                                        "content": "Software developer"
-                                    },
                                     {
                                         "title": "Role",
                                         "content": "Software developer"
@@ -109,11 +97,11 @@
                                     },
                                     {
                                         "title": "Development Tools",
-                                        "content": "MatLAB"
+                                        "content": "MATLAB(Psychophysics Toolbox)"
                                     },
                                     {
                                         "title": "Date",
-                                        "content": "April 2018 - June 2018"
+                                        "content": "September 2017 - December 2017"
                                     }
                                 ]
                                 }
