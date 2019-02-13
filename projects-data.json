@@ -1,56 +1,121 @@
 {
     "projects":[
-        {
-        "name": "LWCMP",
-        "title": "LWCMP",
-        "img": "img/project3.jpg",
-        "description": "LWCMP<br><br>",
-        "url":"https://lwcmp.herokuapp.com/",
-        "color": "#c3d7f3",
-        "info": [
-            {
-                "title": "Role",
-                "content": "UX Researcher, Web development"
-            },
-            {
-                "title": "Design Tools",
-                "content": "Figma"
-            },
-            {
-                "title": "Development Tools",
-                "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
-            },
-            {
-                "title": "Date",
-                "content": "April 2018 - June 2018"
-            }
-        ]
-        },
-        {
-            "name": "NueroViz",
-            "title": "NueroViz",
-            "url": "/",
-            "description": "NueroViz<br><br> NueroViz .",
-            "img": "img/project2.jpg",
-            "color": "#89a398",
-            "info": [
                 {
-                    "title": "Role",
-                    "content": "UX/UI Designer, Back-End development"
-                },
-                {
-                    "title": "Design Tools",
-                    "content": "Figma"
-                },
-                {
-                    "title": "Development Tools",
-                    "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
-                },
-                {
-                    "title": "Date",
-                    "content": "April 2018 - June 2018"
-                }
-            ]
-            }
+                    "name": "Diabeatit",
+                    "title": "Diabeatit",
+                    "url": "dieabeatit",
+                    "description": "Andriod App<br><br> Proactive Interference on Object Binding",
+                    "img": "img/diabeatit.jpg",
+                    "color": "#89a398",
+                    "secondimg": "img/diabeatitplan.jpg",
+                    "info": [
+                        {
+                            "title": "Role",
+                            "content": "Software developer"
+                        },
+                        {
+                            "title": "Design Tools",
+                            "content": "Figma"
+                        },
+                        {
+                            "title": "Development Tools",
+                            "content": "HTML, CSS ,Node.js (Express + Handlebars)"
+                        },
+                        {
+                            "title": "Date",
+                            "content": "April 2018 - June 2018"
+                        }
+                    ]
+                    },{
+                        "name": "LWCMP",
+                        "title": "LWCMP",
+                        "img": "img/lwcm.jpg",
+                        "description": "Worked on a team of nine designers and developers in creating a responsive web data collection application. Worked on user testing, front-end, and back-end development.",
+                        "url":"lwcmp",
+                        "color": "#c3d7f3",
+                        "secondimg": "img/lwcmplan.jpg",
+                        "info": [
+                            {
+                                "title": "Role",
+                                "content": "Software developer"
+                            },
+                            {
+                                "title": "Role",
+                                "content": "UX Researcher, Web development"
+                            },
+                            {
+                                "title": "Design Tools",
+                                "content": "Figma"
+                            },
+                            {
+                                "title": "Development Tools",
+                                "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
+                            },
+                            {
+                                "title": "Date",
+                                "content": "April 2018 - June 2018"
+                            }
+                        ]
+                        },{
+                            "name": "NueroViz",
+                            "title": "NueroViz",
+                            "url": "nuero",
+                            "description": "NueroViz<br><br> NueroViz .",
+                            "img": "img/nuero.jpg",
+                            "color": "#89a398",
+                            "secondimg": "img/nueroplan.jpg",
+                            "info": [
+                                {
+                                    "title": "Role",
+                                    "content": "Software developer"
+                                },
+                                {
+                                    "title": "Role",
+                                    "content": "UX/UI Designer, Back-End development"
+                                },
+                                {
+                                    "title": "Design Tools",
+                                    "content": "Figma"
+                                },
+                                {
+                                    "title": "Development Tools",
+                                    "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
+                                },
+                                {
+                                    "title": "Date",
+                                    "content": "April 2018 - June 2018"
+                                }
+                            ]
+                            },{
+                                "name": "Research",
+                                "title": "Research",
+                                "url": "memory",
+                                "description": "Memory Research<br><br> Proactive Interference on Object Binding",
+                                "img": "img/research.png",
+                                "color": "#89a398",
+                                "secondimg": "img/researchplan.jpg",
+                                "info": [
+                                    {
+                                        "title": "Role",
+                                        "content": "Software developer"
+                                    },
+                                    {
+                                        "title": "Role",
+                                        "content": "Software developer"
+                                    },
+                                    {
+                                        "title": "Design Tools",
+                                        "content": "Google Docs"
+                                    },
+                                    {
+                                        "title": "Development Tools",
+                                        "content": "MatLAB"
+                                    },
+                                    {
+                                        "title": "Date",
+                                        "content": "April 2018 - June 2018"
+                                    }
+                                ]
+                                }
     ]
 }

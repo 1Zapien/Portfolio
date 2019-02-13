@@ -1,0 +1,34 @@
+
+
+{{#with pro}}
+<div class="container">
+
+  <!-- Portfolio Item Heading
+  <h1 class="my-4">
+    <medium>{{name}}</medium >
+  </h1>ß
+ -->
+  <!-- Portfolio Item Row -->
+<div class="text-center">
+  <img src={{secondimg}} class="rounded" alt="...">
+</div>
+    
+
+<div class="col-md-12 my-6 text-muted">
+          <div class="title"> <h4><b>Global Ties</b></h4> </div>
+			    Worked on a team of nine designers and developers in creating a responsive web data collection application. Worked on user testing, front-end, and back-end development.
+          <p class="lead"></p>
+</div>
+ 
+    <div class="row">
+    {{#each info}}
+        <div class="col-md-6 text-muted">
+            <div class="">{{title}}: {{content}}</div>
+        </div>
+    {{/each}}
+    </div>
+
+
+
+  
+  {{/with}}

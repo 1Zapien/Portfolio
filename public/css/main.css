@@ -1,6 +1,7 @@
 body{
   background-color: #fff;
   width: 100;
+  font-style: 
 }
 
 * {box-sizing: border-box;}
@@ -11,11 +12,13 @@ body{
 	margin-top: 2%; 
 	margin-bottom: -2%; 
   z-index: 1;
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 900;
   text-align: right;
 }
-
+main{
+  text-align: center;
+}
 a.navbar-brand{
   font-size: 2rem;
   font-weight: 600;
@@ -23,8 +26,8 @@ a.navbar-brand{
 
 
 div.row{
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .container-fluid{
@@ -74,5 +77,31 @@ div.row{
 div.col-md-6{
   padding-left: 0px;
   padding-right: 0px;
+  padding-top: 1%;
   height: 75%;
+}
+
+p.lead{
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+
+div.container{
+  padding: 0px;
+  text-align: left;
+}
+
+
+img.rounded{
+  width: 100%;
+  padding: 2%;
+}
+
+b{
+  font-size: 2.5rem;
+  font-weight: 700;
 }

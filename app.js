@@ -9,6 +9,7 @@ var exphbs  = require('express-handlebars');
 
 var home = require("./routes/home");
 var about = require("./routes/about");
+var projects = require("./routes/projects");
 
 
 var app = express();
@@ -28,6 +29,7 @@ app.set('view engine', 'handlebars');
 
 app.get('/', home.view);
 app.get('/about', about.view);
+app.get("/:project", projects.view);
 
 
 
