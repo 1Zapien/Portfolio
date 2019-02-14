@@ -15,15 +15,15 @@
     
 
 <div class="col-md-12 my-6 text-muted">
-          <div class="title"> <h4><b>Global Ties</b></h4> </div>
-			    Worked on a team of nine designers and developers in creating a responsive web data collection application. Worked on user testing, front-end, and back-end development.
-          <p class="lead"></p>
+          <div class="titles"> <h2>{{title}}</h2> 
+            {{{desc}}}
+          </div>
 </div>
  
     <div class="row">
     {{#each info}}
         <div class="col-md-6 text-muted">
-            <div class=""><b>{{title}}</b><br> {{content}}</div>
+            <div class="titles">{{title}}<br><p>{{{content}}}</p></div>
         </div>
     {{/each}}
     </div>
