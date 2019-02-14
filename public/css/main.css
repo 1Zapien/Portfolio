@@ -3,6 +3,7 @@ body{
   background-color: #fff;
   width: 100;
   font-size: 1.3rem !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
 * {box-sizing: border-box;}
@@ -16,14 +17,29 @@ body{
   font-size: 1.5rem;
   font-weight: 900;
   text-align: right;
-  font-family: 'Ramabhadra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #111 !important;
 }
 main{
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 a.navbar-brand{
   font-size: 2rem;
   font-weight: 600;
+}
+
+
+a.nav-link{
+  color:#000 !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #000 !important;
+}
+
+li.nav-item{
+  margin-right: 20px;
 }
 
 
@@ -46,9 +62,9 @@ div.row{
 
 .home-intro{
   font-size: 1.75rem;
-  font-weight:500;
-  color: #6c757d;
-  font-family: 'Ramabhadra', sans-serif;
+  font-weight:900;
+  color: #252627;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container2 {
@@ -63,7 +79,7 @@ div.row{
   bottom: 0; 
   transition: .5s ease;
   opacity:0;
-  color: #2c2b2b;
+  color: #111;
   font-size: 1.75rem;
   font-weight: 600;
   font-family: sans-serif;
@@ -71,7 +87,7 @@ div.row{
   text-align: left;
   padding: 10%;
   margin: 0% 1%;
-  font-family: 'Ramabhadra', sans-serif
+  font-family: 'Montserrat', sans-serif;
 }
 
 .overlay p{
@@ -94,14 +110,6 @@ div.col-md-6{
   margin-top: 3%;
 }
 
-p.lead{
-  text-align: left;
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
 
 
 /*projects page*/
@@ -117,15 +125,16 @@ img.rounded{
 }
 
 .titles{
-  font-family: 'Ramabhadra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 900;
+  color: #111
 }
 
 
 .titles p{
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.20rem;
   font-weight: 500;
   margin-right: 15px;
 }
@@ -136,4 +145,23 @@ a.nav-link{
 }
 
 
+
+/**about*/
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-top: 20px;
+  color: #111111
+}
+
+
+p.lead{
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
 

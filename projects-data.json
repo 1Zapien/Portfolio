@@ -12,7 +12,7 @@
                     "info": [
                         {
                             "title": "Role",
-                            "content": "Worked on the devlopment of the Shooter game and fixed bugs with user interface of entire app"
+                            "content": "Worked on the development of the "Shooter" game and fixed bugs with user interface throughout the app."
                         },
                         {
                             "title": "Development Tools",
@@ -39,7 +39,7 @@
                         "info": [
                             {
                                 "title": "Role",
-                                "content": "UX Researcher, Web development"
+                                "content": "Worked with the back-end and front-end development team to implement the login authentication and database structuring. Also worked on user testing and user research."
                             },
                             {
                                 "title": "Design Tools",
@@ -47,11 +47,15 @@
                             },
                             {
                                 "title": "Development Tools",
-                                "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars + Passport.js)"
+                                "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars + Passport)"
                             },
                             {
                                 "title": "Date",
                                 "content": "April 2018 - June 2018"
+                            },
+                            {
+                                "title": "Links",
+                                "content": "<a class='nav-link' href='https://lwcmp.herokuapp.com/'>Live Well</a> <a class='nav-link' href='http://globalties.ucsd.edu'>Global Ties</a>"
                             }
                         ]
                         },{
@@ -66,7 +70,7 @@
                             "info": [
                                 {
                                     "title": "Role",
-                                    "content": "UX/UI Designer, Back-End development"
+                                    "content": "Led development of database and server. Fixed bugs found throughout the app. Contributed to front-end development and design."
                                 },
                                 {
                                     "title": "Design Tools",
@@ -79,6 +83,10 @@
                                 {
                                     "title": "Date",
                                     "content": "April 2018 - June 2018"
+                                },
+                                {
+                                    "title": "Links",
+                                    "content": "<a class='nav-link' href='https://nueroviz.herokuapp.com/index.html'>NueroViz</a>"
                                 }
                             ]
                             },{
@@ -93,7 +101,7 @@
                                 "info": [
                                     {
                                         "title": "Role",
-                                        "content": "Software developer"
+                                        "content": "Contributed to the development and design of the research project as envisioned by the researcher."
                                     },
                                     {
                                         "title": "Design Tools",
