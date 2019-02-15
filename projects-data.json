@@ -5,7 +5,7 @@
                     "title": "Diabeatit",
                     "url": "dieabeatit",
                     "description": "<br> Android app that teaches kids about healthy eating.",
-                    "desc": "<p> Diabeatit is a health education application on Android, featuring three interactive mini-games. The current prototype is a working video game on Android tablets that follows the life of a young character, named Zac, with a relatable lifestyle, as he makes everyday decisions that can affect his risk for developing type 2 Diabetes. </p>",
+                    "desc": "<p>Diabeatit is a health education Android application that teaches kids about the importance of healthy eating in order to reduce the risk of developing type-two diabetes. Diabeatit is in its early stages. It currently has three working mini games that encourage healthy food decisions. </p>",
                     "img": "img/diabeatit.jpg",
                     "color": "#76a5af",
                     "secondimg": "img/diabeatitplan.jpg",
@@ -36,7 +36,7 @@
                         "title": "LWCMPT",
                         "img": "img/lwcm.jpg",
                         "description": "<br>Data collection and visualtion web app.",
-                        "desc": "<p> Android app that teaches kids about healthy eating.</p>",
+                        "desc": "<p> The Live Well Community Market Program Tool (LWCMPT) is a web application that helped the Live Well Community Market Program collect data and visualize it using graphs and charts. The Program is from the UC San Diego School Medicine. It aims to promote and improve access to affordable healthy food in San Diego County. The Program works with small neighborhood markets across San Diego to redesign their markets to have easier access to fresher foods. The LWCMPT facilitated the work the Program had to do by placing all of the markets’ data in a web application that can be accessed and changed on any modern phone or computer.</p>",
                         "url":"lwcmp",
                         "color": "#d2d5de",
                         "secondimg": "img/lwcmplan.jpg",
@@ -55,7 +55,7 @@
                             },
                             {
                                 "title": "Links",
-                                "content": "<a class='nav-link' href='https://lwcmp.herokuapp.com/'>Live Well</a> <a class='nav-link' href='http://globalties.ucsd.edu'>Global Ties</a><a class='nav-link' href='https://github.com/emilynguyen/eng100d'>GitHub repository</a>"
+                                "content": "<a class='nav-link' href='https://lwcmp.herokuapp.com/'>Live Application</a> <a class='nav-link' href='http://globalties.ucsd.edu'>Global Ties</a><a class='nav-link' href='https://github.com/emilynguyen/eng100d'>GitHub repository</a>"
                             },
                             {
                                 "title": "Date",
@@ -67,7 +67,7 @@
                             "title": "NueroViz",
                             "url": "nuero",
                             "description": "<br>Web app that tracks students’ study habits and dipsplays it to user.",
-                            "desc": "<p> Android app that teaches kids about healthy eating.</p>",
+                            "desc": "<p> NueroViz is a prototype application that helps students track their studying habits based on the time spent on each subject. The application displays the student’s time distribution using graphs. The application was built to remind people that having observable data of their studies can help users develop smarter and better informed study habits. </p>",
                             "img": "img/nuero.jpg",
                             "color": "#b3d6be",
                             "secondimg": "img/nueroplan.jpg",
@@ -86,7 +86,7 @@
                                 },
                                 {
                                     "title": "Links",
-                                    "content": "<a class='nav-link' href='https://nueroviz.herokuapp.com/index.html'>NueroViz</a><a class='nav-link' href='https://github.com/1Zapien/NueroViz'>GitHub repository</a>"
+                                    "content": "<a class='nav-link' href='https://nueroviz.herokuapp.com/index.html'>Live Prototype</a><a class='nav-link' href='https://github.com/1Zapien/NueroViz'>GitHub repository</a>"
                                 },
                                 {
                                     "title": "Date",
@@ -95,10 +95,10 @@
                             ]
                             },{
                                 "name": "Research",
-                                "title": "Undergrad Research",
+                                "title": "Research",
                                 "url": "memory",
-                                "description": "<br>Vision and Memory Lab",
-                                "desc": "<p> Android app that teaches kids about healthy eating.</p>",
+                                "description": "<br>Vision and Memory Lab at UCSD",
+                                "desc": "<p> The primary research goal of the Vision and Memory Lab at UCSD is to try to “understand how visual information is represented by the visual system and how it is encoded and integrated into memory.” The project I worked on looked at the effects of proactive interference on object binding to better understand visual short-term memory . The project was built on MATLAB. The entire team worked together to design the objects (shapes) using Psychtoolbox, to write functions to get user input and classify each input based on binding or interference, and finally to design a function to analyze the data.</p>",
                                 "img": "img/research.png",
                                 "color": "#6fa0cd",
                                 "secondimg": "img/researchplan.jpg",
