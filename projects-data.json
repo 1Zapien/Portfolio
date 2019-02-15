@@ -25,6 +25,10 @@
                         {
                             "title": "Links",
                             "content": "<a class='nav-link' href='https://globalties.ucsd.edu/projects/Diabeatit.html'>Diabeatit Page</a> <a class='nav-link' href='http://globalties.ucsd.edu'>Global Ties</a>"
+                        },
+                        {
+                            "title": "Date",
+                            "content": "Sept. 2018 - Dec. 2018"
                         }
                     ]
                     },{
@@ -50,12 +54,12 @@
                                 "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars + Passport)"
                             },
                             {
-                                "title": "Date",
-                                "content": "April 2018 - June 2018"
+                                "title": "Links",
+                                "content": "<a class='nav-link' href='https://lwcmp.herokuapp.com/'>Live Well</a> <a class='nav-link' href='http://globalties.ucsd.edu'>Global Ties</a><a class='nav-link' href='https://github.com/emilynguyen/eng100d'>GitHub repository</a>"
                             },
                             {
-                                "title": "Links",
-                                "content": "<a class='nav-link' href='https://lwcmp.herokuapp.com/'>Live Well</a> <a class='nav-link' href='http://globalties.ucsd.edu'>Global Ties</a>"
+                                "title": "Date",
+                                "content": "April 2018 - June 2018"
                             }
                         ]
                         },{
@@ -81,12 +85,12 @@
                                     "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
                                 },
                                 {
-                                    "title": "Date",
-                                    "content": "April 2018 - June 2018"
+                                    "title": "Links",
+                                    "content": "<a class='nav-link' href='https://nueroviz.herokuapp.com/index.html'>NueroViz</a><a class='nav-link' href='https://github.com/1Zapien/NueroViz'>GitHub repository</a>"
                                 },
                                 {
-                                    "title": "Links",
-                                    "content": "<a class='nav-link' href='https://nueroviz.herokuapp.com/index.html'>NueroViz</a>"
+                                    "title": "Date",
+                                    "content": "April 2018 - June 2018"
                                 }
                             ]
                             },{

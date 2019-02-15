@@ -107,6 +107,13 @@ div.col-md-6{
   padding-right: 0px;
   padding-top: 1%;
   height: 75%;
+}
+
+div.col-md-6.text-muted{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 1%;
+  height: 75%;
   margin-top: 3%;
 }
 
@@ -122,6 +129,7 @@ div.container{
 img.rounded{
   width: 100%;
   padding: 2%;
+  margin-top: 16px;
 }
 
 .titles{
@@ -136,12 +144,17 @@ img.rounded{
   font-family: 'Montserrat', sans-serif;
   font-size: 1.20rem;
   font-weight: 500;
-  margin-right: 15px;
+  margin-right: 30px;
 }
+
 
 
 a.nav-link{
   padding: 0px;
+}
+
+.titles p a.nav-link{
+  color: #007bff !important;
 }
 
 
@@ -165,3 +178,23 @@ p.lead{
   font-family: 'Montserrat', sans-serif;
 }
 
+
+
+
+
+/*footer */
+
+footer.container.py-5{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.text-prime {
+  color:#000 !important;
+  font-weight: 700;
+}
+
+h6.title-list{
+  color:#000 !important;
+  font-weight: 700;
+}
