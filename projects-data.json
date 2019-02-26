@@ -24,7 +24,7 @@
                         },
                         {
                             "title": "Links",
-                            "content": "<a class='nav-link' href='https://globalties.ucsd.edu/projects/Diabeatit.html'>Diabeatit Page</a> <a class='nav-link' href='http://globalties.ucsd.edu'>Global Ties</a>"
+                            "content": "<a class='nav-link' href='https://globalties.ucsd.edu/projects/Diabeatit.html' target='_blank'>Diabeatit Page</a> <a class='nav-link' href='http://globalties.ucsd.edu' target='_blank'>Global Ties</a>"
                         },
                         {
                             "title": "Date",
@@ -55,7 +55,7 @@
                             },
                             {
                                 "title": "Links",
-                                "content": "<a class='nav-link' href='https://lwcmp.herokuapp.com/'>Live Application</a> <a class='nav-link' href='http://globalties.ucsd.edu'>Global Ties</a><a class='nav-link' href='https://github.com/emilynguyen/eng100d'>GitHub repository</a>"
+                                "content": "<a class='nav-link' href='https://lwcmp.herokuapp.com/' target='_blank'>Live Application</a> <a class='nav-link' href='http://globalties.ucsd.edu' target='_blank'>Global Ties</a><a class='nav-link' href='https://github.com/emilynguyen/eng100d' target='_blank'>GitHub repository</a>"
                             },
                             {
                                 "title": "Date",
@@ -86,7 +86,7 @@
                                 },
                                 {
                                     "title": "Links",
-                                    "content": "<a class='nav-link' href='https://nueroviz.herokuapp.com/index.html'>Live Prototype</a><a class='nav-link' href='https://github.com/1Zapien/NueroViz'>GitHub repository</a>"
+                                    "content": "<a class='nav-link' href='https://nueroviz.herokuapp.com/index.html' target='_blank'>Live Prototype</a><a class='nav-link' href='https://github.com/1Zapien/NueroViz' target='_blank'>GitHub repository</a>"
                                 },
                                 {
                                     "title": "Date",
