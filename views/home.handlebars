@@ -12,64 +12,37 @@
           <div class="row">
             {{#each projects}}
             <div class="col-md-6">
-                <div class="container2" >
-                  <a href={{url}}>
-                  <div class = "img"><img src={{img}} width="98%"> </div>
-                  <div class="overlay" style = "background:{{color}}"">{{{title}}}<p>{{{description}}}</p></div>
-                  </a>
+                  <div class="container">
+              <!-- Normal Demo-->
+                <!-- Post-->
+                <div class="post-module">
+                  <!-- Thumbnail-->
+                  <div class="thumbnail">
+                  <img src={{img}}>
+                  </div>
+                  <!-- Post Content-->
+                  <div class="post-content">
+                    <a class='nav-item-fa' href={{url}}><h1 class="title" style="color:{{color}}">{{{title}}}</h1></a>
+                    <!--
+                    <h1 class="title" style="color:{{color}}">{{{title}}}</h1>
+                    -->
+                    <h2 class="sub_title">{{{description}}}</h2>
+                    <p class="description">{{{info.[0].content}}}</p>
+                    <div class="post-meta">
+                      <span class="timestamp">
+                         {{{info.[4].content}}}
+                      </span>
+                    </div>
+                  </div>
+                   <a href={{url}}></a>
               </div>
+              </div>
+
           </div>
+
+
            {{/each}}
     </main>
-
-    
-    
-    
-
- 
-
-    <footer class="container py-5">
-      <div class="row">
-        <div class="col-6 col-md">
-          <h6> <p class="text-prime"> My Skills </p></h6>
-        </div>
-        <div class="col-6 col-md">
-          <h6 class="title-list">Languages</h6>
-          <ul class="list-unstyled text-small">
-            <small>
-            <li><a class="text-muted nav-link disabled">HTML</a></li>
-            <li><a class="text-muted nav-link disabled">CSS</a></li>
-            <li><a class="text-muted nav-link disabled">JavaScript</a></li>
-            <li><a class="text-muted nav-link disabled">MATLAB</a></li>
-            <li><a class="text-muted nav-link disabled">Python</a></li>
-            </small>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h6 class="title-list">Tools</h6>
-          <ul class="list-unstyled text-small">
-            <small>
-              <li><a class="text-muted nav-link disabled">Figma</a></li>
-              <li><a class="text-muted nav-link disabled">InVision</a></li>
-              <li><a class="text-muted nav-link disabled">Git</a></li>
-              <li><a class="text-muted nav-link disabled">Sketch</a></li>
-            </small>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h6 class="title-list">User Experience</h6>
-          <ul class="list-unstyled text-small">
-            <small>
-            <li><a class="text-muted nav-link disabled">Prototyping</a></li>
-            <li><a class="text-muted nav-link disabled">Storyboarding</a></li>
-            <li><a class="text-muted nav-link disabled">User Testing</a></li>
-            <li><a class="text-muted nav-link disabled">Needfinding</a></li>
-            <li><a class="text-muted nav-link disabled">Wireframing</a></li>
-            </small>
-          </ul>
-        </div>
-      </div>
-    </footer>
 
 
 

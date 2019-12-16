@@ -15,7 +15,7 @@
     
 
 <div class="col-md-12 my-6 text-muted">
-          <div class="titles"> <h2>{{title}}</h2> 
+          <div class="titles"> <h2 style="color: {{color}}">{{title}}</h2> 
             {{{desc}}}
           </div>
 </div>
@@ -23,7 +23,7 @@
     <div class="row">
     {{#each info}}
         <div class="col-md-6 text-muted">
-            <div class="titles">{{{title}}}<br><p>{{{content}}}</p></div>
+            <div class="titles" style="color: {{../color}}">{{{title}}}<br><p>{{{content}}}</p></div>
         </div>
     {{/each}}
     </div>

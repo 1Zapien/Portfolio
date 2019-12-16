@@ -28,14 +28,14 @@
                 },
                 {
                     "title": "Links",
-                    "content": "<a class='nav-link' href='https://runday.herokuapp.com/' target='_blank'>Live Prototype</a><a class='nav-link' href='https://github.com/1Zapien/RunDay' target='_blank'>GitHub repository</a>"
+                    "content": "<a class='nav-item-fa' href='https://github.com/1Zapien/RunDay' target='_blank'>  <i class='fab fa-github-alt fa-2x' aria-hidden='false'></i></a>  <a class='nav-item-fa' href='https://runday.herokuapp.com/' target='_blank'>  <i class='fas fa-external-link-square-alt fa-2x'></i></a> "
                 }
             ]
             },
             {
             "name": "Diabeatit",
             "title": "Diabeatit",
-            "url": "dieabeatit",
+            "url": "diabeatit",
             "description": "<br> Android app that teaches kids about healthy eating.",
             "desc": "<p>Diabeatit is a health education Android application that teaches kids about the importance of healthy eating in order to reduce the risk of developing type-two diabetes. Diabeatit is in its early stages. It currently has three working mini games that encourage healthy food decisions. </p>",
             "img": "img/diabeatit.jpg",
@@ -55,12 +55,12 @@
                     "content": "Sept. 2018 - Dec. 2018"
                 },
                 {
-                    "title": "Links",
-                    "content": "<a class='nav-link' href='https://globalties.ucsd.edu/projects/Diabeatit.html' target='_blank'>Diabeatit Page</a> <a class='nav-link' href='http://globalties.ucsd.edu' target='_blank'>Global Ties</a>"
-                },
-                {
                     "title": "Date",
                     "content": "Sept. 2018 - Dec. 2018"
+                },
+                {
+                    "title": "Links",
+                    "content": "<a class='nav-item-fa' href='https://globalties.ucsd.edu/projects/Diabeatit.html' target='_blank'>Diabeatit Page</a>  <a class='nav-item-fa' href='http://globalties.ucsd.edu' target='_blank'> Global Ties</a>"
                 }
             ]
             },{
@@ -86,12 +86,12 @@
                     "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars + Passport)"
                 },
                 {
-                    "title": "Links",
-                    "content": "<a class='nav-link' href='https://lwcmp.herokuapp.com/' target='_blank'>Live Application</a> <a class='nav-link' href='http://globalties.ucsd.edu' target='_blank'>Global Ties</a><a class='nav-link' href='https://github.com/emilynguyen/eng100d' target='_blank'>GitHub repository</a>"
-                },
-                {
                     "title": "Date",
                     "content": "April 2018 - June 2018"
+                },
+                {
+                    "title": "Links",
+                    "content": "<a class='nav-item-fa' href='https://github.com/emilynguyen/eng100d' target='_blank'>  <i class='fab fa-github-alt fa-2x' aria-hidden='false'></i></a>  <a class='nav-item-fa' href='https://lwcmp.herokuapp.com/' target='_blank'>  <i class='fas fa-external-link-square-alt fa-2x'></i></a> "
                 }
             ]
             },{
@@ -117,15 +117,16 @@
                     "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
                 },
                 {
-                    "title": "Links",
-                    "content": "<a class='nav-link' href='https://nueroviz.herokuapp.com/index.html' target='_blank'>Live Prototype</a><a class='nav-link' href='https://github.com/1Zapien/NueroViz' target='_blank'>GitHub repository</a>"
-                },
-                {
                     "title": "Date",
                     "content": "April 2018 - June 2018"
+                },
+                {
+                    "title": "Links",
+                    "content": "<a class='nav-item-fa' href='https://github.com/1Zapien/NueroViz' target='_blank'>  <i class='fab fa-github-alt fa-2x' aria-hidden='false'></i></a>  <a class='nav-item-fa' href='https://nueroviz.herokuapp.com/index.html' target='_blank'>  <i class='fas fa-external-link-square-alt fa-2x'></i></a> "
                 }
-                ]
-                },{
+                
+            ]
+            },{
                 "name": "Research",
                 "title": "Research",
                 "url": "memory",
