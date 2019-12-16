@@ -226,7 +226,7 @@ a.p-2:hover:before {
 .active{
   border-bottom: 3px solid rgb(255, 255, 255);
   line-height: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
   text-decoration: none !important;
   color: inherit;
 }
