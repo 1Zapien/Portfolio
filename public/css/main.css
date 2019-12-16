@@ -496,6 +496,8 @@ a.nav-item-fa:hover, a.nav-item-fa:hover span{
 }
 
 
+
+
 @media(max-width: 600px){
   .body{
     font-size: 1rem;
@@ -510,6 +512,7 @@ a.nav-item-fa:hover, a.nav-item-fa:hover span{
 
   .made{
     padding-left: 10px;
+    font-size: .9rem;
   }
 
   p.lead{
