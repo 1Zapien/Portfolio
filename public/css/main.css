@@ -184,7 +184,13 @@ https://tobiasahlin.com made some changes*/
   text-decoration: none !important;
 }
 
+
+.p-2{
+  display: -webkit-inline-flex;
+}
+
 a.p-2{
+  display: -webkit-inline-flex;
   position: relative;
   color: #fff;
   text-decoration: none !important;
