@@ -19,7 +19,8 @@
   "dependencies": {
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "handlebars": ">=4.7.7"
   },
   "engines": {
     "node": "8.9.x"
