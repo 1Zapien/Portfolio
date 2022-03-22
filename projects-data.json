@@ -1,153 +1,124 @@
 {
-    "projects":[
-            {
-            "name": "RunDay",
-            "title": "RunDay",
-            "url": "runday",
-            "description": "<br> React app that help runners plan the perfect run.",
-            "desc": "<p>Runday is a web application that helps runners find a new place to run. It uses the OpenWeatherMap and Yelp APIs to identify a place to run and gives the user weather information for that location.</p>",
-            "img": "img/runday.jpg",
-            "color": "#7ACCC8",
-            "secondimg": "img/runday.jpg",
-            "info": [
-                {
-                    "title": "Role",
-                    "content": "Integrated multiple APIs. Designed and created a simple user interface prototype."
-                },
-                {
-                    "title": "Design Tools",
-                    "content": "Figma"
-                },
-                {
-                    "title": "Development Tools",
-                    "content": "HTML, CSS, React"
-                },
-                {
-                    "title": "Date",
-                    "content": "Feb. 2019"
-                },
-                {
-                    "title": "Links",
-                    "content": "<a class='nav-item-fa' href='https://github.com/1Zapien/RunDay' target='_blank'>  <i class='fab fa-github-alt fa-2x' aria-hidden='false'></i></a>  <a class='nav-item-fa' href='https://runday.herokuapp.com/' target='_blank'>  <i class='fas fa-external-link-square-alt fa-2x'></i></a> "
-                }
-            ]
-            },{
-            "name": "LWCMP",
-            "title": "LWCMPT",
-            "img": "img/lwcm.jpg",
-            "description": "<br>Data collection and visualtion web app.",
-            "desc": "<p> The Live Well Community Market Program Tool (LWCMPT) is a web application that helped the Live Well Community Market Program collect data and visualize it using graphs and charts. The Program is from the UC San Diego School Medicine. It aims to promote and improve access to affordable healthy food in San Diego County. The Program works with small neighborhood markets across San Diego to redesign their markets to have easier access to fresher foods. The LWCMPT facilitated the work the Program had to do by placing all of the markets’ data in a web application that can be accessed and changed on any modern phone or computer.</p>",
-            "url":"lwcmp",
-            "color": "#d2d5de",
-            "secondimg": "img/lwcmplan.jpg",
-            "info": [
-                {
-                    "title": "Role",
-                    "content": "Worked with the back-end and front-end development team to implement the login authentication and database structuring. Also worked on user testing and user research."
-                },
-                {
-                    "title": "Design Tools",
-                    "content": "Figma"
-                },
-                {
-                    "title": "Development Tools",
-                    "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars + Passport)"
-                },
-                {
-                    "title": "Date",
-                    "content": "April 2018 - June 2018"
-                },
-                {
-                    "title": "Links",
-                    "content": "<a class='nav-item-fa' href='https://github.com/emilynguyen/eng100d' target='_blank'>  <i class='fab fa-github-alt fa-2x' aria-hidden='false'></i></a>  <a class='nav-item-fa' href='https://lwcmp.herokuapp.com/' target='_blank'>  <i class='fas fa-external-link-square-alt fa-2x'></i></a> "
-                }
-            ]
-            },
-            {
-            "name": "Diabeatit",
-            "title": "Diabeatit",
-            "url": "diabeatit",
-            "description": "<br> Android app that teaches kids about healthy eating.",
-            "desc": "<p>Diabeatit is a health education Android application that teaches kids about the importance of healthy eating in order to reduce the risk of developing type-two diabetes. Diabeatit is in its early stages. It currently has three working mini games that encourage healthy food decisions. </p>",
-            "img": "img/diabeatit.jpg",
-            "color": "#76a5af",
-            "secondimg": "img/diabeatitplan.jpg",
-            "info": [
-                {
-                    "title": "Role",
-                    "content": "Worked on the development of the 'Shooter' game and fixed bugs with user interface throughout the app."
-                },
-                {
-                    "title": "Development Tools",
-                    "content": "Unity , C#"
-                },
-                {
-                    "title": "Date",
-                    "content": "Sept. 2018 - Dec. 2018"
-                },
-                {
-                    "title": "Links",
-                    "content": "<a class='nav-item-fa' href='https://globalties.ucsd.edu/projects/Diabeatit.html' target='_blank'>Diabeatit Page</a>  <a class='nav-item-fa' href='http://globalties.ucsd.edu' target='_blank'> Global Ties</a>"
-                }
-            ]
-            },{
-                "name": "Research",
-                "title": "Research",
-                "url": "memory",
-                "description": "<br>Vision and Memory Lab at UCSD",
-                "desc": "<p> The primary research goal of the Vision and Memory Lab at UCSD is to try to “understand how visual information is represented by the visual system and how it is encoded and integrated into memory.” The project I worked on looked at the effects of proactive interference on object binding to better understand visual short-term memory . The project was built on MATLAB. The entire team worked together to design the objects (shapes) using Psychtoolbox, to write functions to get user input and classify each input based on binding or interference, and finally to design a function to analyze the data.</p>",
-                "img": "img/research.png",
-                "color": "#6fa0cd",
-                "secondimg": "img/researchplan.jpg",
-                "info": [
-                    {
-                        "title": "Role",
-                        "content": "Contributed to the development and design of the research project as envisioned by the researcher."
-                    },
-                    {
-                        "title": "Design Tools",
-                        "content": "Google Docs"
-                    },
-                    {
-                        "title": "Development Tools",
-                        "content": "MATLAB(Psychophysics Toolbox)"
-                    },
-                    {
-                        "title": "Date",
-                        "content": "September 2017 - December 2017"
-                    }
-                ]},{
-                    "name": "NueroViz",
-                    "title": "NueroViz",
-                    "url": "nuero",
-                    "description": "<br>Web app that tracks students’ study habits and dipsplays it to user.",
-                    "desc": "<p> NueroViz is a prototype application that helps students track their studying habits based on the time spent on each subject. The application displays the student’s time distribution using graphs. The application was built to remind people that having observable data of their studies can help users develop smarter and better informed study habits. </p>",
-                    "img": "img/nuero.jpg",
-                    "color": "#b3d6be",
-                    "secondimg": "img/nueroplan.jpg",
-                    "info": [
-                        {
-                            "title": "Role",
-                            "content": "Led development of database and server. Fixed bugs found throughout the app. Contributed to front-end development and design."
-                        },
-                        {
-                            "title": "Design Tools",
-                            "content": "Figma"
-                        },
-                        {
-                            "title": "Development Tools",
-                            "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars)"
-                        },
-                        {
-                            "title": "Date",
-                            "content": "April 2018 - June 2018"
-                        },
-                        {
-                            "title": "Links",
-                            "content": "<a class='nav-item-fa' href='https://github.com/1Zapien/NueroViz' target='_blank'>  <i class='fab fa-github-alt fa-2x' aria-hidden='false'></i></a>  <a class='nav-item-fa' href='https://nueroviz.herokuapp.com/index.html' target='_blank'>  <i class='fas fa-external-link-square-alt fa-2x'></i></a> "
-                        }
-                        
-                    ]
-                    }
-    ]
+  "projects": [
+    {
+      "name": "RunDay",
+      "title": "RunDay",
+      "url": "runday",
+      "description": "<br> React app that help runners plan the perfect run.",
+      "desc": "<p>Runday is a web application that helps runners find a new place to run. It uses the OpenWeatherMap and Yelp APIs to identify a place to run and gives the user weather information for that location.</p>",
+      "img": "img/runday.jpg",
+      "color": "#7ACCC8",
+      "secondimg": "img/runday.jpg",
+      "info": [
+        {
+          "title": "Role",
+          "content": "Integrated multiple APIs. Designed and created a simple user interface prototype."
+        },
+        {
+          "title": "Design Tools",
+          "content": "Figma"
+        },
+        {
+          "title": "Development Tools",
+          "content": "HTML, CSS, React"
+        },
+        {
+          "title": "Date",
+          "content": "Feb. 2019"
+        },
+        {
+          "title": "Links",
+          "content": "<a  href='https://github.com/1Zapien/RunDay' target='_blank'> GITHUB </a>  <a href='https://runday.herokuapp.com/' target='_blank'> LIVE SITE</a> "
+        }
+      ]
+    },
+    {
+      "name": "LWCMP",
+      "title": "LWCMPT",
+      "img": "img/lwcm.jpg",
+      "description": "<br>Data collection and visualtion web app.",
+      "desc": "<p> The Live Well Community Market Program Tool (LWCMPT) is a web application that helped the Live Well Community Market Program collect data and visualize it using graphs and charts. The Program is from the UC San Diego School Medicine. It aims to promote and improve access to affordable healthy food in San Diego County. The Program works with small neighborhood markets across San Diego to redesign their markets to have easier access to fresher foods. The LWCMPT facilitated the work the Program had to do by placing all of the markets’ data in a web application that can be accessed and changed on any modern phone or computer.</p>",
+      "url": "lwcmp",
+      "color": "#d2d5de",
+      "secondimg": "img/lwcmplan.jpg",
+      "info": [
+        {
+          "title": "Role",
+          "content": "Worked with the back-end and front-end development team to implement the login authentication and database structuring. Also worked on user testing and user research."
+        },
+        {
+          "title": "Design Tools",
+          "content": "Figma"
+        },
+        {
+          "title": "Development Tools",
+          "content": "HTML, CSS, JavaScript, Node.js(Express + Handlebars + Passport)"
+        },
+        {
+          "title": "Date",
+          "content": "April 2018 - June 2018"
+        },
+        {
+          "title": "Links",
+          "content": "<a href='https://github.com/emilynguyen/eng100d' target='_blank'> GITHUB </a>  <a href='https://lwcmp.herokuapp.com/' target='_blank'> LIVE SITE</a> "
+        }
+      ]
+    },
+    {
+      "name": "Diabeatit",
+      "title": "Diabeatit",
+      "url": "diabeatit",
+      "description": "<br> Android app that teaches kids about healthy eating.",
+      "desc": "<p>Diabeatit is a health education Android application that teaches kids about the importance of healthy eating in order to reduce the risk of developing type-two diabetes. Diabeatit is in its early stages. It currently has three working mini games that encourage healthy food decisions. </p>",
+      "img": "img/diabeatit.jpg",
+      "color": "#76a5af",
+      "secondimg": "img/diabeatitplan.jpg",
+      "info": [
+        {
+          "title": "Role",
+          "content": "Worked on the development of the 'Shooter' game and fixed bugs with user interface throughout the app."
+        },
+        {
+          "title": "Development Tools",
+          "content": "Unity , C#"
+        },
+        {
+          "title": "Date",
+          "content": "Sept. 2018 - Dec. 2018"
+        },
+        {
+          "title": "Links",
+          "content": "<a href='https://globalties.ucsd.edu/projects/Diabeatit.html' target='_blank'>Diabeatit Page</a>  <a href='http://globalties.ucsd.edu' target='_blank'> Global Ties</a>"
+        }
+      ]
+    },
+    {
+      "name": "Research",
+      "title": "Research",
+      "url": "memory",
+      "description": "<br>Vision and Memory Lab at UCSD",
+      "desc": "<p> The primary research goal of the Vision and Memory Lab at UCSD is to try to “understand how visual information is represented by the visual system and how it is encoded and integrated into memory.” The project I worked on looked at the effects of proactive interference on object binding to better understand visual short-term memory . The project was built on MATLAB. The entire team worked together to design the objects (shapes) using Psychtoolbox, to write functions to get user input and classify each input based on binding or interference, and finally to design a function to analyze the data.</p>",
+      "img": "img/research.png",
+      "color": "#6fa0cd",
+      "secondimg": "img/researchplan.jpg",
+      "info": [
+        {
+          "title": "Role",
+          "content": "Contributed to the development and design of the research project as envisioned by the researcher."
+        },
+        {
+          "title": "Design Tools",
+          "content": "Google Docs"
+        },
+        {
+          "title": "Development Tools",
+          "content": "MATLAB(Psychophysics Toolbox)"
+        },
+        {
+          "title": "Date",
+          "content": "September 2017 - December 2017"
+        }
+      ]
+    }
+  ]
 }

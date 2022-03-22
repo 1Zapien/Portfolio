@@ -1,34 +1,35 @@
-
-
 {{#with pro}}
-<div class="container">
+<div class="project__container">
+  <div class="project__cards">
+    <div class="project__name">
+      <h2>{{title}}</h2>
+      <p class="project__type">Website</p>
 
-  <!-- Portfolio Item Heading
-  <h1 class="my-4">
-    <medium>{{name}}</medium >
-  </h1>ß
- -->
-  <!-- Portfolio Item Row -->
-<div class="text-center">
-  <img src={{secondimg}} class="rounded" alt="...">
-</div>
-    
+    </div>
 
-<div class="col-md-12 my-6 text-muted">
-          <div class="titles"> <h2 style="color: {{color}}">{{title}}</h2> 
-            {{{desc}}}
-          </div>
-</div>
- 
-    <div class="row">
-    {{#each info}}
-        <div class="col-md-6 text-muted">
-            <div class="titles" style="color: {{../color}}">{{{title}}}<br><p>{{{content}}}</p></div>
-        </div>
-    {{/each}}
+    <div class="project__summary">
+      <h2>Project Summary</h2>
+      {{{desc}}}
+    </div>
+
+    <div class="text-center">
+      <img src={{secondimg}} class="rounded" alt="...">
     </div>
 
 
+    <div class="project__data">
+      {{#each info}}
+      <div class="project_halfData">
+        <h2>{{{title}}}</h2>
+        <p>{{{content}}}</p>
+      </div>
+      {{/each}}
 
-  
-  {{/with}}
+    </div>
+  </div>
+</div>
+
+
+
+
+{{/with}}
