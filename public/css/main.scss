@@ -207,8 +207,8 @@ a.navbar-brand {
   flex-wrap: wrap;
   margin: 3rem 0rem;
   .project_halfData {
-    width: 45vw;
-    margin: 2rem 0rem;
+    width: 40vw;
+    margin: 2rem 0.5rem;
 
     h2 {
       font-size: 1.5rem;
@@ -221,6 +221,7 @@ a.navbar-brand {
 
     a {
       padding-right: 3rem;
+      display: inline-block;
     }
   }
 }
@@ -351,5 +352,19 @@ img.rounded {
   }
   .projects__info {
     padding: 1rem 0rem;
+  }
+
+  .bottom__nav {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom__links {
+    width: fit-content;
+    padding-top: 0.5rem;
+    border-top: 2px solid grey;
+    padding: 0.5rem 0.5rem 0rem;
   }
 }
