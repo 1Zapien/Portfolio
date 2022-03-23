@@ -101,7 +101,7 @@ a.navbar-brand {
 
 .projects__cards {
   display: flex;
-  margin: 5rem 0rem;
+  margin: 5rem 0rem 1rem;
   flex-direction: column;
   max-width: 40vw;
 }
@@ -208,7 +208,7 @@ a.navbar-brand {
   margin: 3rem 0rem;
   .project_halfData {
     width: 40vw;
-    margin: 2rem 0.5rem;
+    margin: 2rem 1rem;
 
     h2 {
       font-size: 1.5rem;
@@ -246,7 +246,7 @@ img.rounded {
   margin: 3rem 0rem;
 }
 
-.about_cards {
+.about__cards {
   display: flex;
 
   width: 90vw;
@@ -308,16 +308,23 @@ img.rounded {
   padding-right: 1rem;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .body {
     font-size: 1rem;
   }
-  .home-intro {
-    font-size: 1.3rem !important;
-  }
 
   .navvar {
-    font-size: 1rem !important;
+    font-size: 1rem;
+  }
+
+  .home__intro {
+    padding: 3rem 0rem;
+  }
+  .home__introInfo {
+    h1 {
+      line-height: 2rem;
+      font-size: 1.5rem;
+    }
   }
 
   .made {
@@ -333,25 +340,88 @@ img.rounded {
   .about {
     flex-flow: column wrap;
   }
-  .about_cards {
+  .about__cards {
     flex-direction: column;
   }
 
   .about__info {
     max-width: 100%;
     text-align: center;
+    p {
+      line-height: 1.75rem;
+      font-size: 1rem;
+    }
+    h2 {
+      line-height: 2rem;
+      font-size: 2rem;
+    }
   }
 
   .about__img {
     max-width: 100%;
   }
 
+  .projects {
+    gap: 0rem;
+  }
+
   .projects__cards {
     flex-direction: column;
     max-width: 90vw;
+    margin: 3rem 0rem 1rem;
   }
+
   .projects__info {
     padding: 1rem 0rem;
+
+    .projects__title {
+      line-height: 2rem;
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.375rem;
+    }
+
+    .projects__links a {
+      font-size: 1rem;
+    }
+  }
+
+  .project__name {
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .project__summary {
+    p {
+      font-size: 1rem;
+      line-height: 1.9;
+    }
+  }
+
+  .project__data {
+    .project_halfData {
+      width: 90vw;
+      h2 {
+        line-height: 2rem;
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.9;
+      }
+
+      a {
+        font-size: 1rem;
+        line-height: 1.9;
+      }
+    }
   }
 
   .bottom__nav {
@@ -365,6 +435,13 @@ img.rounded {
     width: fit-content;
     padding-top: 0.5rem;
     border-top: 2px solid grey;
-    padding: 0.5rem 0.5rem 0rem;
+    padding: 1rem 0.5rem 0rem;
+  }
+
+  .bottom__nav {
+    font-size: 1rem;
+  }
+  a.nav__link {
+    font-size: 1rem;
   }
 }

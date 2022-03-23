@@ -119,7 +119,7 @@ a.navbar-brand {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 5rem 0rem;
+  margin: 5rem 0rem 1rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -252,7 +252,7 @@ a.navbar-brand {
 
 .project__data .project_halfData {
   width: 40vw;
-  margin: 2rem 0.5rem;
+  margin: 2rem 1rem;
 }
 
 .project__data .project_halfData h2 {
@@ -295,7 +295,7 @@ img.rounded {
   margin: 3rem 0rem;
 }
 
-.about_cards {
+.about__cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,15 +370,19 @@ img.rounded {
   padding-right: 1rem;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   .body {
     font-size: 1rem;
   }
-  .home-intro {
-    font-size: 1.3rem !important;
-  }
   .navvar {
-    font-size: 1rem !important;
+    font-size: 1rem;
+  }
+  .home__intro {
+    padding: 3rem 0rem;
+  }
+  .home__introInfo h1 {
+    line-height: 2rem;
+    font-size: 1.5rem;
   }
   .made {
     padding-left: 10px;
@@ -394,7 +398,7 @@ img.rounded {
         -ms-flex-flow: column wrap;
             flex-flow: column wrap;
   }
-  .about_cards {
+  .about__cards {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -404,8 +408,19 @@ img.rounded {
     max-width: 100%;
     text-align: center;
   }
+  .about__info p {
+    line-height: 1.75rem;
+    font-size: 1rem;
+  }
+  .about__info h2 {
+    line-height: 2rem;
+    font-size: 2rem;
+  }
   .about__img {
     max-width: 100%;
+  }
+  .projects {
+    gap: 0rem;
   }
   .projects__cards {
     -webkit-box-orient: vertical;
@@ -413,9 +428,46 @@ img.rounded {
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 90vw;
+    margin: 3rem 0rem 1rem;
   }
   .projects__info {
     padding: 1rem 0rem;
+  }
+  .projects__info .projects__title {
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  .projects__info p {
+    font-size: 1rem;
+    line-height: 1.375rem;
+  }
+  .projects__info .projects__links a {
+    font-size: 1rem;
+  }
+  .project__name h2 {
+    font-size: 3rem;
+  }
+  .project__name p {
+    font-size: 1rem;
+  }
+  .project__summary p {
+    font-size: 1rem;
+    line-height: 1.9;
+  }
+  .project__data .project_halfData {
+    width: 90vw;
+  }
+  .project__data .project_halfData h2 {
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  .project__data .project_halfData p {
+    font-size: 1rem;
+    line-height: 1.9;
+  }
+  .project__data .project_halfData a {
+    font-size: 1rem;
+    line-height: 1.9;
   }
   .bottom__nav {
     -webkit-box-orient: vertical;
@@ -436,7 +488,13 @@ img.rounded {
     width: fit-content;
     padding-top: 0.5rem;
     border-top: 2px solid grey;
-    padding: 0.5rem 0.5rem 0rem;
+    padding: 1rem 0.5rem 0rem;
+  }
+  .bottom__nav {
+    font-size: 1rem;
+  }
+  a.nav__link {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
