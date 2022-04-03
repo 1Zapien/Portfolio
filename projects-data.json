@@ -6,13 +6,13 @@
       "url": "runday",
       "description": "<br> React app that help runners plan the perfect run.",
       "desc": "<p>Runday is a web application that helps runners find a new place to run. It uses the OpenWeatherMap and Yelp APIs to identify a place to run and gives the user weather information for that location.</p>",
-      "img": "img/runday.jpg",
+      "img": "img/frag-img.jpg",
       "color": "#7ACCC8",
-      "secondimg": "img/runday.jpg",
+      "secondimg": "img/frag-img.jpg",
       "info": [
         {
           "title": "Role",
-          "content": "Integrated multiple APIs. Designed and created a simple user interface prototype."
+          "content": "Designed and coded responsive website. Integrated multiple APIs. Designed and created a simple user interface prototype."
         },
         {
           "title": "Design Tools",
@@ -20,15 +20,15 @@
         },
         {
           "title": "Development Tools",
-          "content": "HTML, CSS, React"
+          "content": "HTML, CSS, React, Firebase, commentbox.io, thum.io"
         },
         {
           "title": "Date",
-          "content": "Feb. 2019"
+          "content": "Dec. 2021"
         },
         {
           "title": "Links",
-          "content": "<a  href='https://github.com/1Zapien/RunDay' target='_blank'> GITHUB </a>  <a href='https://runday.herokuapp.com/' target='_blank'> LIVE SITE</a> "
+          "content": "<a  href='https://github.com/1Zapien/WebRefact' target='_blank'> GITHUB </a>  <a href='https://webrefact.netlify.app/home' target='_blank'> LIVE SITE</a> "
         }
       ]
     },
@@ -70,9 +70,9 @@
       "url": "diabeatit",
       "description": "<br> Android app that teaches kids about healthy eating.",
       "desc": "<p>Diabeatit is a health education Android application that teaches kids about the importance of healthy eating in order to reduce the risk of developing type-two diabetes. Diabeatit is in its early stages. It currently has three working mini games that encourage healthy food decisions. </p>",
-      "img": "img/diabeatit.jpg",
+      "img": "img/webrefact-img.jpg",
       "color": "#76a5af",
-      "secondimg": "img/diabeatitplan.jpg",
+      "secondimg": "img/webrefact-img.jpg",
       "info": [
         {
           "title": "Role",

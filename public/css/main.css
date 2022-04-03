@@ -8,6 +8,7 @@ body {
   background-color: #383939 !important;
   width: 100;
   font-size: 1.2rem;
+  color: white;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -21,7 +22,8 @@ body a {
 body a:hover {
   color: white;
   opacity: 0.6;
-  text-decoration: underline;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
   cursor: pointer;
 }
 
@@ -29,13 +31,12 @@ body a:hover {
   max-width: 95vw;
   margin: auto;
   margin-top: 2%;
-  margin-bottom: -2%;
-  z-index: 1;
-  font-size: 1.5rem;
-  font-weight: 400;
   text-align: right;
-  color: #fff !important;
-  background: #383939;
+}
+
+a.navbar-brand {
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 main {
@@ -44,39 +45,24 @@ main {
   margin: auto;
 }
 
-a.navbar-brand {
-  font-size: 2rem;
-  font-weight: 900;
-}
-
 .nav-link {
-  padding: 0.5rem 0.5rem !important;
+  padding: 0.5rem 0.5rem;
   color: #fff;
 }
 
-.nav-link.disabled {
-  color: #fff !important;
-}
-
-.navbar-light .navbar-toggler {
-  border-color: #fff !important;
+.active {
+  opacity: 0.6;
+  -webkit-text-decoration: underline 2px;
+          text-decoration: underline 2px;
 }
 
 .nav {
   float: right;
 }
 
-.nav-tabs {
-  border-bottom: none !important;
-}
-
-.nav-link-fa {
-  padding: 2px;
-}
-
 /*//home////*/
 .home__intro {
-  color: #fff;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,10 +80,11 @@ a.navbar-brand {
 }
 
 .home__introInfo h1 {
-  line-height: 4rem;
-  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-size: 4rem;
   font-weight: 400;
   word-break: keep-all;
+  max-width: 80vw;
 }
 
 .projects {
@@ -113,13 +100,14 @@ a.navbar-brand {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 5rem;
+  margin-bottom: 2rem;
 }
 
 .projects__cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 5rem 0rem 1rem;
+  margin: 2rem 0rem 1rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -131,12 +119,18 @@ a.navbar-brand {
   max-width: 100%;
   filter: none;
   -webkit-filter: grayscale(0);
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
 }
 
 .projects__thumbnail img:hover {
   cursor: pointer;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .projects__info {
@@ -359,7 +353,10 @@ img.rounded {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 100%;
+  margin: auto;
+  width: 85vw;
+  border-top: 2px solid grey;
+  margin-top: 4rem;
 }
 
 .bottom__nav p {
@@ -383,6 +380,7 @@ img.rounded {
   .home__introInfo h1 {
     line-height: 2rem;
     font-size: 1.5rem;
+    margin: 2rem 1.5rem;
   }
   .made {
     padding-left: 10px;
@@ -487,7 +485,6 @@ img.rounded {
     width: -moz-fit-content;
     width: fit-content;
     padding-top: 0.5rem;
-    border-top: 2px solid grey;
     padding: 1rem 0.5rem 0rem;
   }
   .bottom__nav {
@@ -495,6 +492,22 @@ img.rounded {
   }
   a.nav__link {
     font-size: 1rem;
+  }
+  .projects__thumbnail img {
+    max-width: 100%;
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  }
+  .projects__thumbnail img:hover {
+    cursor: pointer;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
   }
 }
 /*# sourceMappingURL=main.css.map */
