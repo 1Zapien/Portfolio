@@ -1,18 +1,18 @@
 {
   "projects": [
     {
-      "name": "RunDay",
-      "title": "RunDay",
-      "url": "runday",
-      "description": "<br> React app that help runners plan the perfect run.",
-      "desc": "<p>Runday is a web application that helps runners find a new place to run. It uses the OpenWeatherMap and Yelp APIs to identify a place to run and gives the user weather information for that location.</p>",
-      "img": "img/frag-img.jpg",
-      "color": "#7ACCC8",
-      "secondimg": "img/frag-img.jpg",
+      "name": "WebRefact",
+      "title": "WebRefact",
+      "url": "WebRefact",
+      "description": "<br> WebRefact is a React web app I built where developers can get feedback on their  personal projects from other developers.",
+      "desc": "<p>WebRefact is a React web app I built where developers can get feedback on their  personal projects from other developers. This project is intended to get developers to improve their coding skills and build better personal projects based on the feedback of other developers. </p>",
+      "img": "img/webrefact-img.jpg",
+      "color": "#76a5af",
+      "secondimg": "img/webrefact-img.jpg",
       "info": [
         {
           "title": "Role",
-          "content": "Designed and coded responsive website. Integrated multiple APIs. Designed and created a simple user interface prototype."
+          "content": "Built React app that uses Firebase’s RealTime Database to save users' personal projects. When a user enters their website URL, a screenshot of their live site it taken using thumb.io and displayed to other users to give a preview of the personal project. When a user enters their project's GitHub URL, the languages used on the project are retrieved using the GitHub API."
         },
         {
           "title": "Design Tools",
@@ -24,11 +24,43 @@
         },
         {
           "title": "Date",
-          "content": "Dec. 2021"
+          "content": "Dec. 2021 - Current"
         },
         {
           "title": "Links",
-          "content": "<a  href='https://github.com/1Zapien/WebRefact' target='_blank'> GITHUB </a>  <a href='https://webrefact.netlify.app/home' target='_blank'> LIVE SITE</a> "
+          "content": "<a href='https://github.com/1Zapien/WebRefact' target='_blank'>GITHUB </a>  <a href='https://webrefact.netlify.app/home' target='_blank'> LIVE SITE</a>"
+        }
+      ]
+    },
+    {
+      "name": "ART OF FRAGRANCE",
+      "title": "ART OF FRAGRANCE",
+      "url": "fragrances",
+      "description": "<br> React web app where users can keep track of their fragrance collections and track what fragrances they are using.",
+      "desc": "<p>React web app where users can keep track of their fragrance collections and track what fragrances they are using. By using ART OF FRAGRANCE, users can also see what fragrances they are neglecting and/or need to move on from.</p>",
+      "img": "img/frag-img.jpg",
+      "color": "#7ACCC8",
+      "secondimg": "img/frag-img.jpg",
+      "info": [
+        {
+          "title": "Role",
+          "content": "Built React app with user accounts and Facebook login authentication in order to allow users to store their own fragrance collections. I added Scent-Of-The-Day (SOTD) functionality so users can keep track of the fragrances used. In the next update, I will add a Weather Checker when users select their SOTDs so they can conveniently consider environmental factors. I will also add a calendar to provide a quick way for each user to view their data."
+        },
+        {
+          "title": "Design Tools",
+          "content": "Figma"
+        },
+        {
+          "title": "Development Tools",
+          "content": "HTML, CSS, React, Firebase, Facebook Login"
+        },
+        {
+          "title": "Date",
+          "content": "March 2022 - Current"
+        },
+        {
+          "title": "Links",
+          "content": "<a  href='https://github.com/1Zapien/fragrance-app' target='_blank'> GITHUB </a>  <a href='https://fragrance-app.netlify.app/' target='_blank'> LIVE SITE</a> "
         }
       ]
     },
@@ -60,35 +92,7 @@
         },
         {
           "title": "Links",
-          "content": "<a href='https://github.com/emilynguyen/eng100d' target='_blank'> GITHUB </a>  <a href='https://lwcmp.herokuapp.com/' target='_blank'> LIVE SITE</a> "
-        }
-      ]
-    },
-    {
-      "name": "Diabeatit",
-      "title": "Diabeatit",
-      "url": "diabeatit",
-      "description": "<br> Android app that teaches kids about healthy eating.",
-      "desc": "<p>Diabeatit is a health education Android application that teaches kids about the importance of healthy eating in order to reduce the risk of developing type-two diabetes. Diabeatit is in its early stages. It currently has three working mini games that encourage healthy food decisions. </p>",
-      "img": "img/webrefact-img.jpg",
-      "color": "#76a5af",
-      "secondimg": "img/webrefact-img.jpg",
-      "info": [
-        {
-          "title": "Role",
-          "content": "Worked on the development of the 'Shooter' game and fixed bugs with user interface throughout the app."
-        },
-        {
-          "title": "Development Tools",
-          "content": "Unity , C#"
-        },
-        {
-          "title": "Date",
-          "content": "Sept. 2018 - Dec. 2018"
-        },
-        {
-          "title": "Links",
-          "content": "<a href='https://globalties.ucsd.edu/projects/Diabeatit.html' target='_blank'>Diabeatit Page</a>  <a href='http://globalties.ucsd.edu' target='_blank'> Global Ties</a>"
+          "content": "<a href='https://lwcmp.herokuapp.com/' target='_blank'> LIVE SITE</a> "
         }
       ]
     },
