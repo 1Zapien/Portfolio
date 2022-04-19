@@ -319,7 +319,7 @@ img.rounded {
 .about__info p {
   line-height: 1.75rem;
   margin-bottom: 0rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   opacity: 0.6;
 }
 
@@ -407,6 +407,7 @@ img.rounded {
     text-align: center;
   }
   .about__info p {
+    margin: 2rem 0rem;
     line-height: 1.75rem;
     font-size: 1rem;
   }
