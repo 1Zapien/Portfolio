@@ -81,10 +81,11 @@ main {
 
 .home__introInfo h1 {
   line-height: 4.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
   word-break: keep-all;
   max-width: 80vw;
+  letter-spacing: -0.05rem;
 }
 
 .projects {
@@ -150,8 +151,9 @@ main {
 }
 
 .projects__info .projects__title {
-  font-size: 3rem;
+  font-size: 1.75rem;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .projects__info p {
@@ -172,7 +174,7 @@ main {
 }
 
 .projects__links a {
-  opacity: 1;
+  opacity: 0.9;
   padding-right: 1rem;
 }
 
@@ -378,9 +380,9 @@ img.rounded {
     padding: 3rem 0rem;
   }
   .home__introInfo h1 {
-    line-height: 2rem;
-    font-size: 1.5rem;
-    margin: 2rem 1.5rem;
+    line-height: 3.25rem;
+    font-size: 2rem;
+    margin: 0rem 1.5rem;
   }
   .made {
     padding-left: 10px;
@@ -493,6 +495,7 @@ img.rounded {
   }
   a.nav__link {
     font-size: 1rem;
+    opacity: 0.8;
   }
   .projects__thumbnail img {
     max-width: 100%;
@@ -509,6 +512,15 @@ img.rounded {
     -webkit-filter: grayscale(100%);
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
+  }
+}
+
+@media (max-width: 450px) {
+  .home__introInfo h1 {
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.75rem;
+    margin: 0rem 1rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
